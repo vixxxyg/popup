@@ -1,17 +1,30 @@
 .message-window {
-    width: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
     height: 54px;
-    background: rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: rgb(0, 0, 0, 0.1);
     position: fixed;
     right: 40px;
     bottom: 40px;
 }
 
+.message-window div {
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+}
+
 .telegram {
+    background-image: url('./images/telegram.svg');
 }
 
 .whatsup {
+    background-image: url('./images/whatsapp.svg');
 }
 
 .mail {
+    background-image: url('./images/email.svg');
 }
