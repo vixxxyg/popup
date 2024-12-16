@@ -11,6 +11,7 @@
     overflow: hidden;
     background: rgb(0, 0, 0, 0.1);
     transition: all ease 1s;
+    box-shadow: 3px 3px 2px 2px rgb(0, 0, 0, 20%);
 }
 
 .message-window div {
