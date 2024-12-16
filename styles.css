@@ -1,3 +1,17 @@
-body {
-    background-color: crimson;
+.message-window {
+    width: 148px;
+    height: 54px;
+    background: rgb(0, 0, 0, 0.2);
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.telegram {
+}
+
+.whatsup {
+}
+
+.mail {
 }
